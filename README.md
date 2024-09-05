@@ -36,7 +36,12 @@ Using terminal commands:
 ```  
 
 ## Application Usage
-The program prompts you to enter the name of a file that contains a list of filenames. For each filename in the input file, the program replaces _photo.jpg with _info.txt and prints the result to the console.  
+The program prompts you to enter the name of a file that contains a list of filenames. For each filename in the input file, the program replaces _photo.jpg with _info.txt and prints the result to the console. 
+
+You can easily modify the program to replace any specified string in the filenames by updating the following line: 
+```Java
+String newFileName = photoName.replace("_photo.jpg", "_info.txt");
+```
 
 Input file (e.g., fileList.txt):
 ```Java  
