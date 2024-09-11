@@ -19,7 +19,7 @@ Using terminal commands:
 
 - Clone or download the repository: 
 ```Java 
-- git clone https://github.com/your-username/FileNameChange.git 
+- git clone https://github.com/EMK2473/FileNameChange.git 
 ```
 
 - Navigate to the project directory: 
